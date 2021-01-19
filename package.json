@@ -27,7 +27,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nuxt/content": "1.11.1",
     "@nuxt/typescript-runtime": "2.0.1",
     "nuxt": "2.14.12"
   },
