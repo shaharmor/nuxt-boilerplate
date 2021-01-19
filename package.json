@@ -1,0 +1,54 @@
+{
+  "name": "@shaharmor/nuxt-boilerplate",
+  "version": "0.0.0",
+  "description": "nuxt-boilerplate",
+  "keywords": [],
+  "homepage": "https://github.com/shaharmor/nuxt-boilerplate",
+  "bugs": {
+    "url": "https://github.com/shaharmor/nuxt-boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaharmor/nuxt-boilerplate.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Shahar Mor"
+  },
+  "scripts": {
+    "build": "nuxt-ts build",
+    "clean": "rm -rf ./.nuxt",
+    "dev": "nuxt-ts dev",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "npm run lint -- --fix",
+    "prepublish": "npm run build",
+    "setup": "npm ci",
+    "start": "nuxt-ts start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxt/content": "1.11.1",
+    "@nuxt/typescript-runtime": "2.0.1",
+    "nuxt": "2.14.12"
+  },
+  "devDependencies": {
+    "@nuxt/types": "2.14.12",
+    "@nuxt/typescript-build": "2.0.4",
+    "@nuxtjs/tailwindcss": "3.4.2",
+    "@shaharmor/eslint-config": "7.17.0",
+    "@shaharmor/prettier-config": "2.2.0",
+    "@shaharmor/tsconfig": "4.1.3",
+    "@types/jest": "26.0.20",
+    "@types/node": "14.14.21",
+    "eslint": "7.18.0",
+    "husky": "4.3.8",
+    "jest": "26.6.3",
+    "lint-staged": "10.5.3",
+    "nuxt-webfontloader": "1.1.0",
+    "prettier": "2.2.1",
+    "sort-package-json": "1.48.1",
+    "ts-jest": "26.4.4",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.3"
+  }
+}
