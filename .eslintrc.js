@@ -9,4 +9,7 @@ module.exports = {
   parserOptions: {
     tsconfigRootDir: __dirname,
   },
+  settings: {
+    'import/core-modules': ['vue', 'vuex'], // these modules are included in nuxt.js
+  },
 };

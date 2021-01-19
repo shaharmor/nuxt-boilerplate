@@ -7,11 +7,11 @@ import Vue from 'vue';
 
 export default Vue.extend({
   data() {
-    const name: string = 'World';
+    const name = 'World';
 
     return {
-      name
+      name,
     };
-  }
+  },
 });
 </script>
