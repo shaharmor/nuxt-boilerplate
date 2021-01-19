@@ -3,6 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "declaration": true,
+    "esModuleInterop": true,
     "lib": ["ES2019"],
     "noEmit": true,
     "outDir": "dist",
